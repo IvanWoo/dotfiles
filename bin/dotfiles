@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+link_config() {
+    cd config
+    for d in */; do
+        src="${PWD}/${d}"
+        dst="${HOME}/.config"
+        printf "Linking %s to %s\n" "${src}" "${dst}"
+        ln -sf "${src}" "${dst}"
+    done
+}
+
+main() {
+    link_config
+}
+
+main

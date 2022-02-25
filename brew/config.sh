@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eu -o pipefail
+set -euo pipefail
 
 check_brew() {
     which -s brew
