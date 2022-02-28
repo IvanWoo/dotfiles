@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+update_modules() {
+    echo "Updating modules..."
+    git submodule update --init --recursive
+}
+
 link_config() {
     cd config
     for d in */; do
@@ -12,6 +17,7 @@ link_config() {
 }
 
 main() {
+    update_modules
     link_config
 }
 
