@@ -9,4 +9,6 @@ check_brew() {
     else
         brew update
     fi
+
+    brew analytics off
 }
