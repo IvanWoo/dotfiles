@@ -1,0 +1,4 @@
+iredis
+pdm
+pipenv
+yt-dlp
