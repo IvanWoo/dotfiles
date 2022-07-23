@@ -1,4 +1,5 @@
 iredis
 pdm
 pipenv
+tuna
 yt-dlp
