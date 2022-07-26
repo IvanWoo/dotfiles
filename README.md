@@ -28,3 +28,19 @@ sync all packages
 :so %
 :PackerSync
 ```
+
+## VsCode
+
+To disable the Apple press and hold for VSCode only, run this command in a terminal:
+
+```sh
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
+
+Then restart VSCode.
+
+To re-enable, run this command in a terminal:
+
+```sh
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool true
+```
