@@ -5,6 +5,7 @@
 ./fish/main.fish
 ./pipx/main.sh
 ./bin/dotfiles
+./houdini/main.sh
 ```
 
 ## neovim
