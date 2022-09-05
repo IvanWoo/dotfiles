@@ -7,6 +7,8 @@ source "${BASE_DIR}/config.sh"
 main() {
     check_brew
     cd brew
+    rm Brewfile.lock.json
+    brew bundle dump -f
     brew bundle
 }
 
