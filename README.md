@@ -22,6 +22,12 @@ change the default shell
 chsh -s /opt/homebrew/bin/fish
 ```
 
+add brew binaries in fish path
+
+```sh
+fish_add_path /opt/homebrew/bin
+```
+
 ## neovim
 
 ### [packer.nvim](https://github.com/wbthomason/packer.nvim)
@@ -59,3 +65,7 @@ To re-enable, run this command in a terminal:
 ```sh
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool true
 ```
+
+## references
+
+- [Installing Fish shell on MacOS (Intel and M1) using brew](https://gist.github.com/gagarine/cf3f65f9be6aa0e105b184376f765262)
