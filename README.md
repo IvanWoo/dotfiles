@@ -8,6 +8,20 @@
 ./houdini/main.sh
 ```
 
+## fish shell
+
+add the shell to `/etc/shells`
+
+```sh
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+```
+
+change the default shell
+
+```sh
+chsh -s /opt/homebrew/bin/fish
+```
+
 ## neovim
 
 ### [packer.nvim](https://github.com/wbthomason/packer.nvim)
@@ -30,7 +44,7 @@ sync all packages
 :PackerSync
 ```
 
-## VsCode
+## vscode
 
 To disable the Apple press and hold for VSCode only, run this command in a terminal:
 
