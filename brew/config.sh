@@ -11,6 +11,6 @@ check_brew() {
         brew update
     fi
 
-    "Turning off the Homebrew analytics"
+    echo "Turning off the Homebrew analytics"
     brew analytics off
 }
