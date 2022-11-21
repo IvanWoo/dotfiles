@@ -4,11 +4,13 @@ set -euo pipefail
 check_brew() {
     which -s brew
     if [[ $? != 0 ]]; then
-        # Install Homebrew
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        echo "Installing Homebrew"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     else
+        echo "Homebrew already installed, updating..."
         brew update
     fi
 
+    "Turning off the Homebrew analytics"
     brew analytics off
 }
