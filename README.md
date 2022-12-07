@@ -46,7 +46,9 @@ nvim config/nvim/lua/yifan/packer.lua
 sync all packages
 
 ```vim
+# source current file
 :so %
+# sync packer to install all dependencies
 :PackerSync
 ```
 
