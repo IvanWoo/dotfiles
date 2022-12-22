@@ -7,7 +7,10 @@ source "${BASE_DIR}/config.sh"
 main() {
     check_brew
     cd brew
-    rm Brewfile.lock.json
+    LOCK_FILE="Brewfile.lock.json"
+    if test -f "$LOCK_FILE"; then
+        rm $LOCK_FILE
+    fi
     brew bundle dump -f
 }
 
