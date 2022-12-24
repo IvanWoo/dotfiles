@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "3ca2fcf25d10b2974e09c5fe057ec7d312aec097"
+        "revision": "9e7e5fa38ea63dd3924894e4a75c29d4b077451e"
       },
       "homebrew/cask": {
-        "revision": "1866a55cf1c905d5429847b9b36c1ca2573dd11d"
+        "revision": "1b444fc6405fdd33fb97c304f69f6fb40312ce78"
       },
       "homebrew/cask-fonts": {
-        "revision": "dfdad2db78345094a01f95f7b76d26318ab01868"
+        "revision": "90217108481494fe94f168bf0132fd23985277f7"
       },
       "homebrew/cask-versions": {
-        "revision": "78630ca98e9a1388f172e443aae00073e1450913"
+        "revision": "007208ebb9ac220e99dfa4a3842845b62ea59072"
       },
       "homebrew/core": {
-        "revision": "81afe3da3eaeca2d2b1c07067a39c7dcf81834f1"
+        "revision": "2af5c85b720b2a81ef784c143289a0807085a10d"
       },
       "norwoodj/tap": {
         "revision": "a5f3252f1a286e0cabdbf9b96c5252fddd298252"
@@ -3193,7 +3193,7 @@
         }
       },
       "font-iosevka": {
-        "version": "16.8.4",
+        "version": "17.0.0",
         "options": {
           "full_name": "font-iosevka"
         }
@@ -3366,10 +3366,28 @@
           "full_name": "stats"
         }
       },
+      "vagrant": {
+        "version": "2.3.4",
+        "options": {
+          "full_name": "vagrant"
+        }
+      },
+      "vagrant-vmware-utility": {
+        "version": "1.0.21",
+        "options": {
+          "full_name": "vagrant-vmware-utility"
+        }
+      },
       "visual-studio-code": {
         "version": "1.74.2",
         "options": {
           "full_name": "visual-studio-code"
+        }
+      },
+      "vmware-fusion": {
+        "version": "13.0.0,20802013",
+        "options": {
+          "full_name": "vmware-fusion"
         }
       },
       "webtorrent": {
@@ -3401,9 +3419,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.6.16-6-g760ab63",
+        "HOMEBREW_VERSION": "3.6.16-8-g895d322",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "81afe3da3eaeca2d2b1c07067a39c7dcf81834f1",
+        "Homebrew/homebrew-core": "2af5c85b720b2a81ef784c143289a0807085a10d",
         "CLT": "14.1.0.0.1.1666437224",
         "Xcode": "14.2",
         "macOS": "12.6"
