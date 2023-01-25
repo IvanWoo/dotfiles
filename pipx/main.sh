@@ -8,6 +8,7 @@ main() {
     check_pipx
     echo "installing pipx packages from ${PIPX_DUMP_FILE}"
     cat $PIPX_DUMP_FILE | xargs -n1 pipx install
+    pipx ensurepath
 }
 
 main
