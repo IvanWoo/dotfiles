@@ -1,6 +1,7 @@
 iredis
 pdm
 pipenv
+tokei-pie
 tomato-clock
 tuna
 yt-dlp
