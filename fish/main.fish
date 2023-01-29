@@ -19,9 +19,20 @@ function _fisher
     fisher update
 end
 
+function _link
+    cd "$DIR/conf.d"
+    for f in *
+        set src "$PWD/$f"
+        set dst "$HOME/.config/fish/conf.d"
+        printf "Linking %s to %s\n" "$src" "$dst"
+        ln -sf "$src" "$dst"
+    end
+end
+
 function main
     _omf
     _fisher
+    _link
 end
 
 main
