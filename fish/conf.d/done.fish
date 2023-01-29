@@ -14,6 +14,6 @@ function __postexec_notify_on_long_running_commands --on-event fish_postexec
     end
 
     if test $CMD_DURATION -gt 5000
-        terminal-notifier -title 'command finished' -message "$argv"
+        terminal-notifier -title 'command finished' -message "$argv" -sound default
     end
 end
