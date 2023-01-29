@@ -4,7 +4,7 @@
 ./brew/main.sh
 ./fish/main.fish
 ./pipx/main.sh
-./bin/dotfiles
+./bin/dotfiles.sh
 ./houdini/main.sh
 ```
 
