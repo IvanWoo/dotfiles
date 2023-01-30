@@ -5,11 +5,7 @@
 #
 # It is invoked by the fish shell automatically using its event system.
 function __postexec_notify_on_long_running_commands --on-event fish_postexec
-    set --function interactive_commands 'vim' 'vlc' 'zathura' 'gitk' 'man' 'less' 'bash' 'zsh' 'fish'
-    set --function command (string split ' ' $argv[1])
-    if contains $command $interactive_commands
-        # We quit interactive commands manually,
-        # no need for a notification.
+    if status is-interactive
         return
     end
 
