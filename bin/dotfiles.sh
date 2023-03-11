@@ -4,6 +4,7 @@ set -euo pipefail
 update_modules() {
     echo "Updating modules..."
     git submodule update --init --recursive
+    git submodule update --recursive --remote
 }
 
 link_config() {
