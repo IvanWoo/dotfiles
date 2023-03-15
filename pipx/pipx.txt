@@ -1,7 +1,10 @@
+gdown
 iredis
 pdm
 pipenv
+rembg
 tokei-pie
 tomato-clock
 tuna
+you-get
 yt-dlp
