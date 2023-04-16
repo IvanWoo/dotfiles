@@ -19,4 +19,6 @@ function __default_alias
         alias imgcat=icat
         alias d="kitty +kitten diff"
     end
+
+    alias tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale
 end
