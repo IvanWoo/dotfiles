@@ -2,6 +2,7 @@ gdown
 iredis
 pdm
 pipenv
+poetry
 rembg
 tokei-pie
 tomato-clock
