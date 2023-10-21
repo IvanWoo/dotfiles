@@ -21,4 +21,5 @@ function __default_alias
     end
 
     alias tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale
+    alias cot /Applications/CotEditor.app/Contents/SharedSupport/bin/cot
 end
