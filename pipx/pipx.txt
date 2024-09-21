@@ -8,5 +8,6 @@ rembg
 tokei-pie
 tomato-clock
 tuna
+uv
 you-get
 yt-dlp
