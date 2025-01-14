@@ -1,6 +1,7 @@
 gdown
 iredis
 manga-ocr
+mycli
 pdm
 pipenv
 poetry
